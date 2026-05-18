@@ -13,10 +13,17 @@ data/test/labels/
 data/**/*.cache
 
 # Ultralytics outputs and downloaded model weights.
-runs/
+runs/*
+!runs/detect/
+!runs/detect/ship_merged_v3/
+runs/detect/ship_merged_v3/*
+!runs/detect/ship_merged_v3/weights/
+runs/detect/ship_merged_v3/weights/*
+!runs/detect/ship_merged_v3/weights/best.pt
 *.log
 *.pid
 *.pt
+!runs/detect/ship_merged_v3/weights/best.pt
 *.onnx
 *.engine
 
