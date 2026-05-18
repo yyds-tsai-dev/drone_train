@@ -1,0 +1,5 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 19
+names: ['Air Craft Carrier', 'Bulk-Carrier', 'Container Ship', 'Cruise Ship', 'Drilling Ship', 'LNG', 'Naval', 'Offshore Platform', 'Ro-Ro', 'Tanker', 'Tug-Boat', 'Yacht', 'Fishing Boat', 'Amphibious', 'Landing Ship', 'Submarine', 'Coast Guard', 'Ferry', 'Sailboat']
