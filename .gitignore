@@ -31,3 +31,4 @@ runs/detect/ship_merged_v3/weights/*
 .DS_Store
 .idea/
 .vscode/
+.nfs*
