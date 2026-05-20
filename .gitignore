@@ -1,0 +1,34 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local dataset artifacts are large and should be managed outside git.
+data.zip
+data/train/images/
+data/train/labels/
+data/valid/images/
+data/valid/labels/
+data/test/images/
+data/test/labels/
+data/**/*.cache
+
+# Ultralytics outputs and downloaded model weights.
+runs/*
+!runs/detect/
+!runs/detect/ship_merged_v3/
+runs/detect/ship_merged_v3/*
+!runs/detect/ship_merged_v3/weights/
+runs/detect/ship_merged_v3/weights/*
+!runs/detect/ship_merged_v3/weights/best.pt
+*.log
+*.pid
+*.pt
+!runs/detect/ship_merged_v3/weights/best.pt
+*.onnx
+*.engine
+
+# Local editor and OS files.
+.DS_Store
+.idea/
+.vscode/
+.nfs*
